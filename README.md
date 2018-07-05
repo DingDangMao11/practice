@@ -1,5 +1,4 @@
 # 记录
-=============
 [!PyPI - Python Version(https://img.shields.io/pypi/pyversions/Django.svg?style=for-the-badge)](https://www.python.org/)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=for-the-badge))](https://github.com/wqk317/practice/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg?style=for-the-badge)](https://github.com/wqk317/practice/issues)
