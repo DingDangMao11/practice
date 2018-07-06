@@ -2,4 +2,4 @@
 * 这里是`2018年7月份`作业
 # 进程
 * 2018-07-06
-	1. ```adb shell dumpsys window windows | findstr "Current" ``` 获取当前窗口
+	1. `adb shell dumpsys window windows | findstr "Current" ` 获取当前窗口
