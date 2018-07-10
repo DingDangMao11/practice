@@ -25,27 +25,9 @@ log相关
 
 6.华勤的717端口(diag)<br />
   `*#*#13491#*#*`
+  
   闻泰wt_log<br />
   `*#*#98284#*#*`
-  
-7.解密重启次数:<br />
-  可以使用以下解密：(python)<br />
-    ```
-    >>> import base64
-
-    >>> from Crypto.Cipher import AES
-
-    >>> key = "112adsfqwe112adsfqweSDHqwhSDHqwh"
-
-    >>> cipher = AES.new(key)
-
-    >>> b64_str = "加密字符串"
-
-    >>> enc = base64.b64decode(b64_str)
-
-    >>> cipher.decrypt(enc)
-    ```
-  手机异常重启的记录都会生成在在 `persist/stability/abnormal_poweroff_time.txt `
   
 节点相关
 ---
