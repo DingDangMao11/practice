@@ -32,11 +32,17 @@ log相关
   可以使用以下解密：(python)<br />
     ```
     >>> import base64
+
     >>> from Crypto.Cipher import AES
+
     >>> key = "112adsfqwe112adsfqweSDHqwhSDHqwh"
+
     >>> cipher = AES.new(key)
+
     >>> b64_str = "加密字符串"
+
     >>> enc = base64.b64decode(b64_str)
+
     >>> cipher.decrypt(enc)
     ```
   手机异常重启的记录都会生成在在 `persist/stability/abnormal_poweroff_time.txt `
@@ -81,9 +87,10 @@ log相关
 
 3.subsystem:<br />
 如果echo restart > /d/msm_subsys/slpi 不支持，请输入一下命令<br />
-  `
+  ```
   oxygen:/ # echo 'related' > /sys/bus/msm_subsys/devices/subsys2/restart_level
+  
   oxygen:/ # echo 'restart' > /sys/kernel/debug/msm_subsys/adsp
-  `
+  ```
 4.批量pull文件:<br />
 `adb shell ls data/media/0/app*.txt | tr "\n\r" " " | xargs -n1 adb pull`
