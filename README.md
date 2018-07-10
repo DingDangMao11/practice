@@ -4,3 +4,4 @@
 * 活到老,学到老, 生命不息, 学习不止.
 * 谨以此页面, 致敬不放弃我们的`浩哥`, 和带领我们一起往前奔的小伙伴们!
 * 切换不同`branch`,以浏览最新内容...
+* 常用测试命令详见:[Common test command.md](https://github.com/wqk317/practice/blob/master/Common%20test%20command.md)
