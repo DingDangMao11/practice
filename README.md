@@ -5,8 +5,11 @@
 	1. `adb shell dumpsys window windows | findstr "Current" ` 获取当前窗口
 * 2018-07-17
 	2. 如果没安装apk, 或者由于特殊原因无法定位到当前窗口, 则可借助`aapt`获取`包名`和`入口activity`:
+		
 		`aapt dump xmltree xxx.apk  AndroidManifest.xml`
+		
 		以QQ为例:
+		
 		```
 			$ aapt dump xmltree mobileqq_android-7.2.5.apk   AndroidManifest.xml
 			N: android=http://schemas.android.com/apk/res/android
@@ -61,4 +64,5 @@
 					A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
 					A: android:configChanges(0x0101001f)=(type 0x11)0x4a4
 					A: android:hardwareAccelerated(0x010102d3)=(type 0x12)0xffffffff
+		
 		```
