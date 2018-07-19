@@ -9,7 +9,7 @@ def fun_timer():
     book = xlwt.Workbook(encoding='utf-8', style_compression=0)
     sheet = book.add_sheet('local_time', cell_overwrite_ok=True)
 
-    for i in range(5):
+    for i in range(50):
         # 读取手机本地时间
         out1 = subprocess.Popen("adb shell date", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         local_time = out1.stdout.readlines()
