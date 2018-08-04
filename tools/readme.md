@@ -51,4 +51,6 @@
 	
 2. 更改升级分支:
 
-	`release-upgrades`
+	`vim /etc/update-manager/release-upgrades`
+	
+	
