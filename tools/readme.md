@@ -44,7 +44,11 @@
 	打开注册表，进入 HKEY_CLASSES_ROOT\Directory\Background\shell，在shell下新建项并命名为 Git Bash Here；再在“Git Bash Here”目录下新建项并命名为 Command，其值为 "D:\Program Files (x86)\PortableGit\git-bash.exe"，即git-bash.exe所在的完整路径，注意加引号。
 	```
 # Ubuntu
+
 1. 配置语言环境:
 	
 	`dpkg-reconfigure locales`
 	
+2. 更改升级分支:
+
+        `release-upgrades`
