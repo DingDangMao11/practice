@@ -13,7 +13,8 @@
 3. 保留数据卸载app: `adb uninstall -k <package> `</br>
    	高版本adb(在1.0.40测试pass)请替换为: `adb shell cmd package uninstall -k`
 4. 列出设备上所有的软件包: `adb shell pm list packages`
-5. 
+5. 获取当前窗口: `adb shell dumpsys window windows | findstr "Current"`
+6. 
 	
 # Git
 1. 丢弃本地更改, 强制同步远端仓库:
