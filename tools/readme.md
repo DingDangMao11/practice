@@ -11,7 +11,8 @@
 1. 下载地址: [Google 官方下载地址](https://developer.android.com/studio/releases/platform-tools)
 2. 批量pull文件: `adb shell ls data/media/0/app*.txt | tr "\n\r" " " | xargs -n1 adb pull`
 3. 保留数据卸载app: `adb uninstall -k <package> //卸载app但保留数据和缓存文件`
-4. 
+4. 列出设备上所有的软件包: `adb shell pm list packages`
+5. 
 	
 # Git
 1. 丢弃本地更改, 强制同步远端仓库:
