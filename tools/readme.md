@@ -10,8 +10,13 @@
 # adb
 1. 下载地址: [Google 官方下载地址](https://developer.android.com/studio/releases/platform-tools)
 2. 批量pull文件: `adb shell ls data/media/0/app*.txt | tr "\n\r" " " | xargs -n1 adb pull`
-3. 保留数据卸载app: `adb uninstall -k <package> `</br>
-   	高版本adb(在1.0.40测试pass)请替换为: `adb shell cmd package uninstall -k`
+3. 保留数据卸载app: `adb uninstall -k <package> ` 
+	
+   高版本adb(在1.0.40测试pass)请替换为: `adb shell cmd package uninstall -k`
+   
+   如果上述命令提示`cmd: Can't find service: xxx` 
+   
+   请尝试`adb shell pm uninstall -k`
 4. 列出设备上所有的软件包: `adb shell pm list packages`
 5. 获取当前窗口: `adb shell dumpsys window windows | findstr "Current"`
 6. 
