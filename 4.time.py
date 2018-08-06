@@ -4,6 +4,7 @@ import time
 import xlwt
 import subprocess
 
+
 def fun_timer():
 
     book = xlwt.Workbook(encoding='utf-8', style_compression=0)
@@ -21,5 +22,7 @@ def fun_timer():
     book.save('local_time.xls')
 
 #主函数
-if __name__=='__main__':
+
+
+if __name__ == '__main__':
     fun_timer()
