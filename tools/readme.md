@@ -61,4 +61,12 @@
 
 	`vim /etc/update-manager/release-upgrades`
 	
+3. 查看内网ip:
+
+        `ifconfig`
+	
+4. 查看公网ip:
+
+        `curl ifconfig.me`
+	
 	
