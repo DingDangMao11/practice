@@ -63,10 +63,10 @@
 	
 3. 查看内网ip:
 
-        `ifconfig`
+	`ifconfig`
 	
 4. 查看公网ip:
 
-        `curl ifconfig.me`
+	`curl ifconfig.me`
 	
 	
